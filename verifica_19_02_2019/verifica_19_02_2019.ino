@@ -27,6 +27,13 @@ void ciclo(){
   cicli = Serial.readString().toInt();
   Serial.print("Hai inserito: ");
   Serial.println(cicli);
+  Serial.print("Durata dei random: ");
+  Serial.print(casuale1);
+  Serial.println(" e ");
+  Serial.println(casuale2);
+
+
+
 }
 /*void durata_spegnimento_1(){
   Serial.println("Inserisci la durata di spegnimento in millisecondi dei led rosso e giallo");
